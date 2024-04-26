@@ -6,7 +6,6 @@ Another Coin é uma aplicação simples em Java para converter entre diferentes 
 
 1. Clone o repositório para sua máquina local:
 
-```bash
 git clone https://github.com/lucas-35065/AnotherCoin.git
 
 2. Importe o projeto em sua IDE Java preferida.
