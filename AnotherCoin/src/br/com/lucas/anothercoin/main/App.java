@@ -13,7 +13,7 @@ import com.google.gson.JsonObject;
 
 import br.com.lucas.anothercoin.modelo.Calculos;
 
-public class Main {
+public class App {
     public static void main(String[] args) throws IOException, InterruptedException, RuntimeException {
         var apiKey = "673756d16a9c26874419944b";
         var url = "https://v6.exchangerate-api.com/v6/" + apiKey + "/latest/USD";
