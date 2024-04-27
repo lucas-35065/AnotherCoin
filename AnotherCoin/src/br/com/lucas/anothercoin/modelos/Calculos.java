@@ -1,4 +1,4 @@
-package br.com.lucas.anothercoin.modelo;
+package br.com.lucas.anothercoin.modelos;
 
 public class Calculos {
     public double currency;

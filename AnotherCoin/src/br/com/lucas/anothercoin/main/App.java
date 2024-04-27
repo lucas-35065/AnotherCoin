@@ -11,7 +11,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
 
-import br.com.lucas.anothercoin.modelo.Calculos;
+import br.com.lucas.anothercoin.modelos.Calculos;
 
 public class App {
     public static void main(String[] args) throws IOException, InterruptedException, RuntimeException {
@@ -23,27 +23,6 @@ public class App {
         Gson gson = new GsonBuilder()
         .setPrettyPrinting()
         .create();
-
-        String primeiroMenu = """
-
-        ***********************************************
-        Seja bem-vindo/a ao Another Coin ^^
-
-        Escolha a moeda que deseja converter abaixo:
-
-        1) Peso argentino => Dólar Americano
-        2) Dólar Americano => Peso argentino
-        3) Boliviano boliviano => Dólar Americano
-        4) Dólar Americano => Boliviano boliviano
-        5) Real brasileiro => Dólar Americano
-        6) Dólar Americano => Real Brasileiro
-        7) Peso chileno => Dólar Americano
-        8) Dólar Americano => Peso chileno
-        9) Dólar Canadense => Dólar Americano
-        10) Dólar Americano => Dólar Canadense
-        ***********************************************
-
-        """;
 
         String valor = "Digite o valor que você tem na moeda escolhida: "; 
 
@@ -66,8 +45,7 @@ public class App {
 
             while (opcao != 11) {
                 double dinheiro = 0;
-
-                System.out.println(primeiroMenu);
+                
                 opcao = leitura.nextInt();
 
                 switch (opcao) {
