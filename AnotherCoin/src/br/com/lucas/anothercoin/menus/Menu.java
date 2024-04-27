@@ -1,7 +1,9 @@
 package br.com.lucas.anothercoin.menus;
 
 public class Menu {
-    public void showMenu () {
+
+
+    public void showMenuPrincipal () {
         System.out.println("""
 
         ***********************************************
